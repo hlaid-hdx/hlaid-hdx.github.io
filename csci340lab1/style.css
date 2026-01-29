@@ -79,3 +79,7 @@ section .row img{
     font-size: 40px;
     font-weight: 400
 }
+
+footer p{
+    align-items: left;
+}

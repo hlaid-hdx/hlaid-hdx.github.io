@@ -24,6 +24,7 @@ header h1{
     color:blue;
     font-family: "Gravitas One", sans-serif;
     font-size: 80px;
+    align-items: left;
 }
 
 .jumbotron{

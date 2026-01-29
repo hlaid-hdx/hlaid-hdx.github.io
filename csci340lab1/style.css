@@ -82,4 +82,6 @@ section .row img{
 
 footer p{
     align-items: left;
+    margin: 0;
+    padding: 0 20px;
 }

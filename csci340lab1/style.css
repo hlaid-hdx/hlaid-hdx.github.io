@@ -30,3 +30,15 @@ section .row img{
     margin: 0 0 30px;
     width: 100%;
 }
+
+.btn.btn-primary {
+    border-radius: 2px;
+    border: 0px;
+    color: white;
+    text-shadow: none;
+    background-color:#000000;
+}
+.btn.btn-primary:hover{
+    color: #000000;
+    background-color: white;
+}

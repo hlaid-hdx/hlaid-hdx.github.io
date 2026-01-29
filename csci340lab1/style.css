@@ -14,7 +14,7 @@ header .row, footer.row {
 header nav {
     display:flex;
     justify-content: flex-end;
-    font-weight: 200;
+    font-weight: 400;
 }
 header p{
     padding: 0 20px;
@@ -22,7 +22,7 @@ header p{
 }
 header h1{
     color:blue;
-    font-family: "Oswald", sans-serif;
+    font-family: "Gravitas One", sans-serif;
 }
 
 .jumbotron{
@@ -59,4 +59,10 @@ section .row img{
 .btn.btn-primary:hover{
     color: #000000;
     background-color: white;
+}
+.container p {
+    align-items: center;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 400
 }

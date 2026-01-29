@@ -66,3 +66,15 @@ section .row img{
     font-size: 40px;
     font-weight: 400
 }
+.container ul {
+    align-items: center;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 400
+}
+.container li {
+    align-items: center;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 400
+}

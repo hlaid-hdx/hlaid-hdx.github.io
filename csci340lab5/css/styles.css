@@ -11201,3 +11201,144 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+#mainNav {
+    background-color: #15110d;
+}
+
+#mainNav .navbar-brand {
+    color: #d6a74f;
+    font-weight: 700;
+}
+
+#mainNav .navbar-brand:hover {
+    color: #ffffff;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: #f4eee2;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #d6a74f;
+}
+
+.masthead h1 {
+    color: #f5d37c;
+    text-shadow: 4px 4px 0 #000000;
+}
+
+.masthead h2 {
+    max-width: 750px;
+    color: #f4eee2;
+    font-size: 1.35rem;
+}
+
+.btn-primary {
+    background-color: #d6a74f;
+    border-color: #d6a74f;
+    color: #15110d;
+    font-weight: 700;
+}
+
+.btn-primary:hover {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #15110d;
+}
+
+.about-section {
+    background: linear-gradient(to bottom, #000000 0%, #15110d 65%, #241a12 100%);
+}
+
+.about-section img {
+    max-height: 430px;
+    object-fit: cover;
+    border: 10px solid #2f2419;
+    border-radius: 12px;
+}
+
+.projects-section {
+    background-color: #f3eadc;
+}
+
+.projects-section h4 {
+    color: #241a12;
+    font-weight: 700;
+}
+
+.featured-text {
+    border-left: 0.5rem solid #d6a74f;
+}
+
+.project {
+    background-color: #15110d;
+}
+
+.project-text h4 {
+    color: #f5d37c;
+}
+
+.project-text p {
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.projects-section img {
+    width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+}
+
+.signup-section {
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.85)),
+        url("https://upload.wikimedia.org/wikipedia/commons/9/93/Carrion_crow_calling_02.jpg");
+}
+
+.signup-section h2 {
+    color: #f5d37c;
+}
+
+.signup-section p {
+    max-width: 780px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.contact-section {
+    background-color: #15110d;
+}
+
+.contact-section .card {
+    border: 0;
+    border-top: 6px solid #d6a74f;
+    border-radius: 8px;
+}
+
+.contact-section .card h4 {
+    color: #241a12;
+    font-weight: 700;
+}
+
+.contact-section .text-primary {
+    color: #7b4f25 !important;
+}
+
+.social a {
+    background-color: #d6a74f;
+    color: #15110d;
+}
+
+.social a:hover {
+    background-color: #ffffff;
+    color: #15110d;
+}
+
+.footer {
+    background-color: #000000;
+}

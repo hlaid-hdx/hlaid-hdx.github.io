@@ -1,17 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0;
     font-family: "Oswald", sans-serif;
     font-weight: 400;
     background-color: grey;
 }
 
-header {
-    padding: 30px 0;
+.container {
+    width: 1170px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
-header .row,
-footer .row {
+.row {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-sm-4,
+.col-sm-6,
+.col-sm-8 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-sm-4 {
+    width: 33.333333%;
+}
+
+.col-sm-6 {
+    width: 50%;
+}
+
+.col-sm-8 {
+    width: 66.666667%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+header {
+    padding: 30px 0;
 }
 
 header nav {
@@ -26,6 +69,7 @@ header p {
 }
 
 header h1 {
+    margin: 0;
     color: blue;
     font-family: "Gravitas One", sans-serif;
     font-size: 80px;
@@ -34,17 +78,23 @@ header h1 {
 .jumbotron {
     display: flex;
     align-items: center;
+    height: 500px;
+    margin-bottom: 30px;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/93/Carrion_crow_calling_02.jpg");
     background-size: cover;
-    height: 500px;
+    background-position: center;
     text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
+.hero-content {
+    width: 100%;
+}
+
 .jumbotron h2 {
-    font-size: 60px;
-    font-weight: 700;
     margin: 0;
     color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
 }
 
 .jumbotron h3 {
@@ -52,44 +102,87 @@ header h1 {
     color: #ffffff;
 }
 
-section .row img {
-    margin: 0 0 30px;
-    width: 100%;
-}
-
-.btn.btn-primary {
-    border-radius: 2px;
+.btn {
+    display: inline-block;
+    padding: 10px 16px;
     border: 0;
+    border-radius: 2px;
     color: #ffffff;
-    text-shadow: none;
     background-color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    cursor: pointer;
 }
 
-.btn.btn-primary:hover {
+.btn:hover {
     color: #000000;
     background-color: #ffffff;
 }
 
-.container p {
+figure {
+    margin: 0;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 0 30px;
+}
+
+.content-section {
+    margin-bottom: 30px;
+}
+
+.content-section p,
+.content-section ul,
+.content-section li {
     margin: 0;
     font-size: 40px;
     font-weight: 400;
 }
 
-.container ul {
-    margin: 0;
-    font-size: 40px;
-    font-weight: 400;
+.content-section ul {
+    padding-left: 40px;
 }
 
-.container li {
-    margin: 0;
-    font-size: 40px;
-    font-weight: 400;
+footer {
+    padding: 30px 0;
 }
 
 footer p {
-    text-align: left;
     margin: 0;
     padding: 0 20px;
+    text-align: left;
+}
+
+@media screen and (max-width: 767px) {
+    .col-sm-4,
+    .col-sm-6,
+    .col-sm-8 {
+        width: 100%;
+    }
+
+    header nav {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+
+    header h1 {
+        font-size: 52px;
+    }
+
+    .jumbotron h2 {
+        font-size: 44px;
+    }
+
+    .content-section p,
+    .content-section ul,
+    .content-section li {
+        font-size: 28px;
+    }
 }
